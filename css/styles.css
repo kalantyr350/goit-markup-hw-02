@@ -2,18 +2,20 @@
 /* колір заголовків #212121 */
 /* колір основ тексту #757575 */
 /* колір текст білий  #FFFFFF; */
-/* колір вторічний  rgba(255, 255, 255, 0.6) */
+/* колір другорядний текст  rgba(255, 255, 255, 0.6) */
 
 :root {
   --blue-color: #2196f3;
   --black-color: #212121;
   --white-color: #ffffff;
+  --secondary-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: #757575;
+  font-family: 'Roboto', sans-serif;
 }
-
+/* index */
 /* header */
 
 .link,
@@ -26,7 +28,7 @@ body {
   color: var(--blue-color);
 }
 
-.link.now:active,
+.link.now,
 .link:hover,
 .link:focus {
   color: var(--blue-color);
@@ -49,3 +51,19 @@ body {
 .section-title {
   color: var(--black-color);
 }
+
+/* footer */
+
+.address {
+  background-color: #2f303a;
+}
+
+.address-studio {
+  color: var(--white-color);
+}
+
+.address-linc {
+  color: var(--secondary-color);
+}
+
+/* portfolio */
