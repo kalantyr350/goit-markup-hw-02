@@ -1,0 +1,59 @@
+/* колір виділення #2196F3 */
+/* колір заголовків #212121 */
+/* колір основ тексту #757575 */
+/* колір текст білий  #FFFFFF; */
+/* колір rgba(255, 255, 255, 0.6) */
+
+:root {
+  --blue-color: #2196f3;
+  --black-color: #212121;
+  --white-color: #ffffff;
+}
+
+body {
+  color: #757575;
+}
+
+/* header */
+
+.link,
+.logo {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.logo-item {
+  color: var(--blue-color);
+}
+
+.link.active,
+.link:hover,
+.link:focus,
+.logo:hover,
+.logo:focus {
+  color: var(--blue-color);
+}
+
+/* hero */
+
+.title-hero,
+.button {
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
+.button[type] {
+  background-color: var(--blue-color);
+}
+
+/* main */
+
+.list-title {
+  color: var(--black-color);
+}
+
+/* work */
+
+.work-title {
+  color: var(--black-color);
+}
