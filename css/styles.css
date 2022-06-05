@@ -57,3 +57,10 @@ body {
 .work-title {
   color: var(--black-color);
 }
+
+/* team */
+
+.team-title,
+.team-item-title {
+  color: var(--black-color);
+}
