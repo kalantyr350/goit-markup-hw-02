@@ -2,7 +2,7 @@
 /* колір заголовків #212121 */
 /* колір основ тексту #757575 */
 /* колір текст білий  #FFFFFF; */
-/* колір rgba(255, 255, 255, 0.6) */
+/* колір вторічний  rgba(255, 255, 255, 0.6) */
 
 :root {
   --blue-color: #2196f3;
@@ -26,41 +26,26 @@ body {
   color: var(--blue-color);
 }
 
-.link.active,
+.link.now:active,
 .link:hover,
-.link:focus,
-.logo:hover,
-.logo:focus {
+.link:focus {
   color: var(--blue-color);
 }
 
 /* hero */
 
-.title-hero,
-.button {
+.hero-title {
   color: var(--white-color);
   background-color: var(--black-color);
 }
 
-.button[type] {
+.button {
+  color: var(--white-color);
   background-color: var(--blue-color);
 }
 
 /* main */
 
-.list-title {
-  color: var(--black-color);
-}
-
-/* work */
-
-.work-title {
-  color: var(--black-color);
-}
-
-/* team */
-
-.team-title,
-.team-item-title {
+.section-title {
   color: var(--black-color);
 }
