@@ -136,6 +136,10 @@ body {
   color: var(--black-color);
   background: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .filter .button:focus,
 .filter .button:hover {
