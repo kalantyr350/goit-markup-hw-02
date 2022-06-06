@@ -56,9 +56,10 @@ body {
   text-transform: uppercase;
 }
 
-.button {
+.hero-button {
   color: var(--white-color);
   background-color: var(--blue-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -68,6 +69,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
 /* main */
 
 .section-title,
@@ -100,13 +106,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
 }
 
 .team-list .text {
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
 }
 /* footer */
 
@@ -131,6 +135,7 @@ body {
 .filter .button {
   color: var(--black-color);
   background: #f5f4fa;
+  cursor: pointer;
 }
 .filter .button:focus,
 .filter .button:hover {
