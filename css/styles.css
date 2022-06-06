@@ -14,18 +14,27 @@
 body {
   color: #757575;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 /* index */
 /* header */
 
-.link,
 .logo {
-  color: var(--black-color);
-  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-item {
   color: var(--blue-color);
+}
+.link {
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .link.now,
@@ -39,19 +48,66 @@ body {
 .hero-title {
   color: var(--white-color);
   background-color: var(--black-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   color: var(--white-color);
   background-color: var(--blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* main */
 
-.section-title {
+.section-title,
+.title {
   color: var(--black-color);
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+/* services */
+.services-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.services-list .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* team */
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
 /* footer */
 
 .address {
@@ -60,10 +116,37 @@ body {
 
 .address-studio {
   color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .address-linc {
   color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
-/* portfolio */
+/* portfolio.html */
+
+.filter .button {
+  color: var(--black-color);
+  background: #f5f4fa;
+}
+.filter .button:focus,
+.filter .button:hover {
+  background-color: var(--blue-color);
+}
+
+.project .title {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.9;
+}
