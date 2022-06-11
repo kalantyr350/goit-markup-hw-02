@@ -79,7 +79,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list .link.now,
+.list .link.current,
 .list .link:hover,
 .list .link:focus {
   color: var(--accent-color);
